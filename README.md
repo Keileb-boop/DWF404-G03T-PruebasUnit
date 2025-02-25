@@ -11,21 +11,33 @@ Caleb Alejandro Peñate Deras PD230166
 
 ******************************************************
 ①Descripción del Problema y Solución
+
 ●Problema:
+
 Una empresa tecnológica está en expansión y necesita un software que le ayude a administrar a sus empleados en tres departamentos clave:
+
 1.	Recursos Humanos (RH) → Contrata y despide empleados.
+   
 2.	Finanzas → Administra pagos y presupuestos.
+   
 3.	Desarrollo de Software → Contiene desarrolladores asignados a proyectos.
+
 La empresa requiere que Recursos Humanos solo contrate si hay presupuesto, que Finanzas solo pague a empleados activos, y que los gerentes tengan al menos tres desarrolladores bajo su supervisión.
 
 ☑Solución Implementada
+
 Se diseñó un sistema en Java 17 con Maven, aplicando los principios de la POO.
+
 •	Se usaron herencia y abstracción para modelar Empleado y sus subclases (Desarrollador, Gerente, Contador).
+
 •	Se creó una interfaz Gestionable para definir las acciones comunes de los departamentos.
+
 •	Cada departamento gestiona a sus empleados siguiendo reglas de negocio específicas.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ②Cómo Ejecutar el Proyecto
+
 ✅ Requisitos Previos
+
 •	Tener instalado Java 17 o superior.
 •	Tener Apache Maven instalado y configurado.
 •	Un IDE compatible como IntelliJ IDEA, Eclipse o VS Code con soporte para Java y Maven.
