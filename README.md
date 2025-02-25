@@ -1,5 +1,5 @@
 --------------------------------------------------------------------
-📌Sistema de Gestión Empresarial Modular
+<h1>📌Sistema de Gestión Empresarial Modular</h1>
 
 *****************************************************
 Camila Elizabeth Castillo Joya CJ220498
@@ -11,7 +11,7 @@ Gladis del Carmen Rivas Miranda RM191684
 Caleb Alejandro Peñate Deras PD230166
 
 ******************************************************
-①Descripción del Problema y Solución
+1.Descripción del Problema y Solución
 
 ●Problema:
 
@@ -25,7 +25,7 @@ Una empresa tecnológica está en expansión y necesita un software que le ayude
 
 La empresa requiere que Recursos Humanos solo contrate si hay presupuesto, que Finanzas solo pague a empleados activos, y que los gerentes tengan al menos tres desarrolladores bajo su supervisión.
 
-☑Solución Implementada
+●Solución Implementada
 
 Se diseñó un sistema en Java 17 con Maven, aplicando los principios de la POO.
 
@@ -36,7 +36,7 @@ Se diseñó un sistema en Java 17 con Maven, aplicando los principios de la POO.
 •	Cada departamento gestiona a sus empleados siguiendo reglas de negocio específicas.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-②Cómo Ejecutar el Proyecto
+2.Cómo Ejecutar el Proyecto
 
 ✅ Requisitos Previos
 
@@ -65,7 +65,7 @@ mvn exec:java -Dexec.mainClass="sv.edu.udb.Main"
 Mvn test
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-Explicación de las Pruebas Unitarias
+3.Explicación de las Pruebas Unitarias
 
 Se han implementado pruebas con JUnit 5 para validar las funcionalidades clave del sistema.
 
